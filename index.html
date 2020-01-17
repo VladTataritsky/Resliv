@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <style>.red {
+        color: red;
+    }</style>
+</head>
+<body>
+<input oninput="wrongValFn(event)" type="text" name="name" id="name_input" value="Xxxx" pattern="Xxxx">
+
+<script>
+  const wrongValFn = (event) => {
+    event.target.value !== event.target.pattern ? event.target.classList.add('red') : event.target.classList.remove('red');
+  }
+</script>
+</body>
+</html>
