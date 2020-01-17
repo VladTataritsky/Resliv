@@ -1,0 +1,33 @@
+#list li{
+    list-style: none;
+    background-color: #FEDFFD;
+    font-size: 25px;
+    transition: color 0.2s;
+    margin-right: 2%;
+}
+#list li:hover{
+    background-color: purple;
+    color: white;
+}
+#cross{
+    width: 25px;
+    opacity: 0.6;
+    margin-left: 10px;
+    margin-top: -5px;
+    filter: invert(0.92);
+}
+#cross:hover{
+    opacity: 1;
+}
+form{
+    width: 28%;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: -2px 2px 2px 0 rgba(0,0,0,0.75);
+}
+.form-control{
+    width: 58%;
+}
+form button{
+    width: 35%;
+}
