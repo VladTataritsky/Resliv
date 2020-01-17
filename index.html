@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+<form>
+    <div>
+        <h3>Size</h3>
+        <input type="radio" name="size" value="S">S
+        <input type="radio" name="size" value="M">M
+        <input type="radio" name="size" value="L">L
+    </div>
+    <div>
+        <h3>Color</h3>
+        <input type="checkbox" name="color" value="1">1
+        <input type="checkbox" name="color" value="2">2
+        <input type="checkbox" name="color" value="3">3
+        <input type="checkbox" name="color" value="4">4
+        <input type="checkbox" name="color" value="5">5
+    </div>
+    <div>
+        <h3>Manufacturer</h3>
+        <select multiple name="manufacturer">
+            <option value="aaa">aaa</option>
+            <option value="b&c">b&amp;c</option>
+            <option value="ddd">ddd</option>
+            <option value="eee">eee</option>
+        </select>
+    </div>
+    <div>
+        <h3>Sale</h3>
+        <input type="checkbox" value="1">
+    </div>
+    <p id="out">http://любой_домен/filter?size=M&color=1&color=2&manufacturer=aaa&manufacturer=ddd </p>
+</form>
+</body>
+</html>
